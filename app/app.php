@@ -7,10 +7,16 @@
   $app->register(new Silex\Provider\TwigServiceProvider(), array('twig.path'=> __DIR__.'/../views'));
 
   $app->get('/', function() use ($app){
-    $cheese= new WordCheck;
-    $cake = $cheese->countword(["i", "am", "a", "guy"], 'guy');
-
-    return $app['twig']->render('index.html.twig',array('steve' => $cake));
+    return $app['twig']->render('index.html.twig');
+  });
+  $app->post('/result', function() use ($app){
+    $newWord = new WordCheck;
+    $user_string = $_POST['user_string'];
+    $user_word = $_POST['user_word'];
+    $prepstring = $newWord->prep($user_string, $user_word);
+    $prepword = $newWord->prepword($user_string, $user_word);
+    $result = $newWord->countword($prepstring, $prepword);
+      return $app['twig']->render('result.html.twig', array('steve' => $result));
   });
   return $app;
  ?>

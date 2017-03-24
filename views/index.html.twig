@@ -1,5 +1,10 @@
 {% include 'topbase.html.twig' %}
-    <h1> cheese{{steve}}</h1>
+    <h1> cheese </h1>
+    <form action="/result" method="post">
+        <input class="form-control" name="user_string" type="text" placeholder="Enter Sentence">
+        <input class="form-control" name="user_word" type="text" placeholder="Enter Word To Check For">
+        <button type="submit">Submit</button>
+
   </body>
 </html>
 {% include 'bottombase.html.twig' %}
