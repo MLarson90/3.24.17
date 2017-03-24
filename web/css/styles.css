@@ -1,66 +1,104 @@
+body{
+  background-color: black;
+}
+#title{
+  text-align: center;
+  font-size: 90px;
+  color:green;
+}
+#description{
+  text-align: center;
+  color: blue;
+}
+#butt{
+  font-size: 50px;
+  background-color: green;
+  text-align: center;
+  margin: 5% 40%;
+}
+.cheese{
+  background-color: purple;
+  color:white;
+}
 .blue{
   background-color:blue;
   height: 300px;
+  display:none;
 }
 .purple{
   background-color:purple;
   height: 300px;
+  display:none;
 }
 .green{
   background-color:green;
   height: 300px;
+  display:none;
 }
 .yellow{
   background-color:yellow;
   height: 300px;
+  display:none;
 }
 .white{
   background-color:white;
   height: 300px;
+  display:none;
 }
 .red{
   background-color:red;
   height: 300px;
+  display:none;
 }
 .pink{
   background-color:pink;
   height: 300px;
+  display:none;
 }
 .orange{
   background-color:orange;
   height: 300px;
+  display:none;
 }
 .bluer{
   background-color:blue;
   height: 300px;
+  display:none;
 }
 .greener{
   background-color:green;
   height: 300px;
+  display:none;
 }
 .purpler{
   background-color:purple;
   height: 300px;
+  display:none;
 }
 .reder{
   background-color:red;
   height: 300px;
+  display:none;
 }
 .yellower{
   background-color:yellow;
   height: 300px;
+  display:none;
 }
 .whiter{
   background-color:orange;
   height: 300px;
+  display:none;
 }
 .pinker{
   background-color:pink;
-  height:300px
+  height:300px;
+  display:none;
 }
 .purplest{
   background-color: purple;
   height:300px;
+  display:none;
 }
 .resultOfBlue{
   margin: 40%;

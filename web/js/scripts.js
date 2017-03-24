@@ -1,4 +1,20 @@
 $(document).ready(function(){
+  $(".blue").fadeIn(1500);
+  $(".purple").fadeIn(1600);
+  $(".green").fadeIn(800);
+  $(".yellow").fadeIn(1000);
+  $(".white").fadeIn(2000);
+  $(".red").fadeIn(1000);
+  $(".pink").fadeIn(900);
+  $(".orange").fadeIn(2000);
+  $(".bluer").fadeIn(900);
+  $(".greener").fadeIn(800);
+  $(".purpler").fadeIn(700);
+  $(".reder").fadeIn(1000);
+  $(".yellower").fadeIn(700);
+  $(".whiter").fadeIn(2000);
+  $(".pinker").fadeIn(1500);
+  $(".purplest").fadeIn(2000);
   $(".blue").hover(function(event){
     event.preventDefault();
     $(".resultOfBlue").toggle();
@@ -79,5 +95,4 @@ $(document).ready(function(){
     $(".resultOfgreener").toggle();
     $(".greener").toggleClass("pink");
   });
-
 });
