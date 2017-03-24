@@ -7,6 +7,11 @@
     $split_str = explode(" ", $string_lower);
     return $split_str;
   }
+  function noPunc($input){
+    $notAllowed = array("?","!",",","/","`","~","@","#","$","%",".");
+    $sentence = $input;
+    return str_replace($notAllowed, " " , $sentence);
+  }
   function prepword($input, $input_word){
     $lower_single = strtolower($input_word);
     return $lower_single;

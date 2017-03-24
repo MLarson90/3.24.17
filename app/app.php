@@ -13,8 +13,9 @@
     $newWord = new WordCheck;
     $user_string = $_POST['user_string'];
     $user_word = $_POST['user_word'];
-    $prepstring = $newWord->prep($user_string, $user_word);
-    $prepword = $newWord->prepword($user_string, $user_word);
+    $no_punc = $newWord->noPunc($user_string);
+    $prepstring = $newWord->prep($no_punc, $user_word);
+    $prepword = $newWord->prepword($no_punc, $user_word);
     $result = $newWord->countword($prepstring, $prepword);
       return $app['twig']->render('result.html.twig', array('steve' => $result));
   });

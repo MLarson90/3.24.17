@@ -1,4 +1,150 @@
-#blue{
+.blue{
   background-color:blue;
   height: 300px;
+}
+.purple{
+  background-color:purple;
+  height: 300px;
+}
+.green{
+  background-color:green;
+  height: 300px;
+}
+.yellow{
+  background-color:yellow;
+  height: 300px;
+}
+.white{
+  background-color:white;
+  height: 300px;
+}
+.red{
+  background-color:red;
+  height: 300px;
+}
+.pink{
+  background-color:pink;
+  height: 300px;
+}
+.orange{
+  background-color:orange;
+  height: 300px;
+}
+.bluer{
+  background-color:blue;
+  height: 300px;
+}
+.greener{
+  background-color:green;
+  height: 300px;
+}
+.purpler{
+  background-color:purple;
+  height: 300px;
+}
+.reder{
+  background-color:red;
+  height: 300px;
+}
+.yellower{
+  background-color:yellow;
+  height: 300px;
+}
+.whiter{
+  background-color:orange;
+  height: 300px;
+}
+.pinker{
+  background-color:pink;
+  height:300px
+}
+.purplest{
+  background-color: purple;
+  height:300px;
+}
+.resultOfBlue{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfpurple{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfgreen{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfpinker{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfyellow{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfwhite{
+  text-align: center;
+  margin-top: 115px;
+  font-size:50px;
+  display:none;
+}
+.resultOfred{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfpurplest{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfpink{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOforange{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfbluer{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfgreener{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfpurpler{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfreder{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfyellower{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfwhiter{
+  margin: 40%;
+  font-size:70px;
+  display:none;
+}
+.resultOfbluer{
+  margin: 40%;
+  font-size:70px;
+  display:none;
 }
